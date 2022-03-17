@@ -1,0 +1,12 @@
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main-page_wrap{
+    width: 800px;
+    height: 800px;
+    background-color: gray;
+    border-radius: 10px;
+}

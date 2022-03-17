@@ -1,0 +1,53 @@
+.wellcom-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/assets/1-1background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #172027; */
+}
+
+.wellcom-page__form{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: userform 2s ease-in;
+    position: relative;
+}
+
+@keyframes userform{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.wellcom-page__form input,
+.wellcom-page__h1{
+    text-align: center;
+}
+
+.wellcom-page__h1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    animation: userform 2s ease-in;
+}
+
+
+@media (min-width : 1050px) {
+    .wellcom-page__form input{
+        width: 300px;
+    }
+    .wellcom-page__h1{
+        font-size: 60px;
+    }
+}
+

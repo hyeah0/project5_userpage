@@ -2,11 +2,32 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:  #172027; */
+    position: relative;
 }
 
-.main-page_wrap{
-    width: 800px;
-    height: 800px;
-    background-color: gray;
-    border-radius: 10px;
+.main-page__img{
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.25;
+}
+
+.main-page__wrap{
+    width: 90vw;
+    height: 90vh;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    position: absolute;
+    overflow: scroll;
+}
+
+.main-page__wrap div{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: var(--innershadow);
+    border-radius: var(--border-radius);
+    display: block;
 }

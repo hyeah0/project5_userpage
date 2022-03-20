@@ -17,6 +17,7 @@ function greeting(username){
     wellcomPageForm.classList.add(HIDDEN);
     wellcomPageGreeting.classList.remove(HIDDEN);
     wellcomPageGreeting.innerHTML = `HELLO ${username} </br> VON VOYAGE`
+    wellcomPage.classList.add(HIDDEN);
 }
 
 const savedUserName = localStorage.getItem(USERNAME);

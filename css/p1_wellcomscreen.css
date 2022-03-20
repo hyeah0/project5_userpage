@@ -1,10 +1,13 @@
+
 .wellcom-page{
     width: 100vw;
     height: 100vh;
-    background-image: url("/assets/1-1background.jpg");
+    background-color: rgba(255, 255, 255, 0.247);
+    background-image: url("/assets/plane-ged84b52c8_1920.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    opacity: 0.5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,25 +32,39 @@
     }
 }
 
+.wellcom-page__form input{
+    width: 40vw;
+    font-size: 15px;
+}
+
+.wellcom-page__form input:last-child{
+    font-weight: bolder;
+}
+
+.wellcom-page__form input:last-child:hover{
+    background-color: var(--palepink);
+}
+
 .wellcom-page__form input,
 .wellcom-page__h1{
     text-align: center;
 }
 
 .wellcom-page__h1{
-    color: white;
-    font-size: 40px;
-    position: absolute;
+    /* padding: 10px; */
+    color: rgba(128, 128, 128, 0.856);
+    font-size: 30px;
+    /* position: absolute; */
+    /* background-color: rgba(128, 128, 128, 0.548); */
+    border-radius: 10px;
     animation: userform 2s ease-in;
 }
 
 
 @media (min-width : 1050px) {
     .wellcom-page__form input{
-        width: 300px;
-    }
-    .wellcom-page__h1{
-        font-size: 60px;
+        width: 30vw;
+        font-size: 25px;
     }
 }
 

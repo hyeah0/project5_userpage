@@ -1,0 +1,29 @@
+.time-weather-section{
+    display: flex;
+}
+
+.time-weather-section .time,
+.time-weather-section .weather{
+    width: 55vw;
+    height: 25vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time div,
+.weather div{
+    width: 100%;
+    margin: 10px;
+}
+
+.time-weather-section div span{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+

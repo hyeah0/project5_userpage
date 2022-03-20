@@ -12,7 +12,6 @@
 </head>
 <body>
     <section class="wellcom-page">
-        <!-- <img src="./assets/1background.jpg" alt=""> -->
         <form class="wellcom-page__form" action="">
                 <input 
                     type="text" 
@@ -22,32 +21,44 @@
                     maxlength="10"
                     required>
                 <input type="submit" value="Log In">
-        </form>
-        <h1 class="wellcom-page__h1 hidden"></h1>
+        </form>      
     </section>
+       
     <section class="main-page">
-        <section class="main-page__wrap">
-            <div>
-                <h1 class="main-page__greeting">VON VOYAGE</h1>   
+
+        <img class="main-page__img" src="./assets/" alt="">
+        <!-- <div class="main-page__imgdiv"></div> -->
+        <div class="main-page__wrap">
+            <h1 class="wellcom-page__h1 hidden"></h1>
+            <section class="time-weather-section">
+                <div class="time">
+                    <span class="time-date"></span>
+                    <span class="time-time"></span>
+                </div>
+                <div class="weather">
+                    <span class="weather-location"></span>
+                    <span class="weather-now"></span>
+                </div>
+            </section>
+            <div class="todo">
+                <h1>To Do List</h1>
+                <form id="todo-form">
+                    <input type="text" placeholder="Write a To Do and Press Enter">
+                </form>
+                <ul id="todo-list">
+                    
+                </ul>
             </div>
-            <main>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
-            </main>
-            <footer>
-
-            </footer>
-        </section>
+            
+        </div>
     </section>
-
+   
     <script src="./js/login.js"></script>
     <script src="./js/mainpage.js"></script>
+    <script src="./js/randomimg.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="https://kit.fontawesome.com/4338ad17fa.js" crossorigin="anonymous"></script>
 </body>
 </html>

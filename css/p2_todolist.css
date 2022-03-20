@@ -1,0 +1,30 @@
+.todo{
+    height: 43%;
+    overflow: scroll;
+}
+
+.todo h1{
+    color: gray;
+    font-size: 20px;
+}
+
+#todo-form,
+#todo-list{
+    margin: var(--p2margin);
+}
+
+#todo-list{
+    list-style: none;
+}
+
+#todo-form input{
+    display: block;
+    width: 100%;
+}
+
+#todo-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.685);
+}

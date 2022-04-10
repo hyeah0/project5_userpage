@@ -1,7 +1,7 @@
 :root{
     --border-radius : 25px;
     --shadow : rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    --pointshadow : 0px 3px 8px  rgba(248, 191, 201, 0.959) ;
+    --pointshadow : 0px 3px 8px  rgba(93, 93, 93, 0.289) ;
     --innershadow : rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     /* p2-innercomponents */
     --p2margin : 10px;
